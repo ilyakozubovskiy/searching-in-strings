@@ -1,6 +1,6 @@
 # Searching in Strings
 
-A beginner level task for practicing String class methods.
+A beginner level task for practicing String class methods for searching in strings.
 
 
 ## Get the Project
