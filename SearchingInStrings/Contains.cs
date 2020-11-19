@@ -27,7 +27,7 @@ namespace SearchingInStrings
         {
             // TODO #5-2. Implement the method using String.Contains instance method. Analyze the unit tests, and use the correct StringComparison enumeration value.
             // See String.Contains and StringComparison documentation pages:
-            // * https://docs.microsoft.com/en-us/dotnet/api/system.string.indexof
+            // * https://docs.microsoft.com/en-us/dotnet/api/system.string.contains
             // * https://docs.microsoft.com/en-us/dotnet/api/system.stringcomparison
             throw new NotImplementedException();
         }
