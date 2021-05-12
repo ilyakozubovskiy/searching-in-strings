@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 #pragma warning disable SA1611
 #pragma warning disable CA1062
@@ -127,9 +127,9 @@ namespace SearchingInStrings
         }
 
         /// <summary>
-        /// Reports the zero-based index of the first occurrence of the specified string in the current String object. Parameters specify the starting search position in the current string, the number of characters in the current string to search, and the type of search to use for the specified string.
+        /// Reports the zero-based index of the last occurrence of the specified string in the current String object. Parameters specify the starting search position in the current string, the number of characters in the current string to search, and the type of search to use for the specified string.
         /// </summary>
-        /// <returns>The zero-based index position of <paramref name="value"/> from the start of the current instance if that string is found, or -1 if it is not. If value is <see cref="string.Empty"/>, the return <paramref name="value"/> is <paramref name="startIndex"/>.</returns>
+        /// <returns>The zero-based index position of <paramref name="value"/> from the end of the current instance if that string is found, or -1 if it is not. If value is <see cref="string.Empty"/>, the return <paramref name="value"/> is <paramref name="startIndex"/>.</returns>
         public static int GetLastIndexOfStringInvariantCulture(string str, string value, int startIndex, int count)
         {
             // TODO #3-11. Implement the method using String.LastIndexOf instance method. Analyze the unit tests, and use the correct StringComparison enumeration value.
@@ -140,9 +140,9 @@ namespace SearchingInStrings
         }
 
         /// <summary>
-        /// Reports the zero-based index of the first occurrence of the specified string in the current String object. Parameters specify the starting search position in the current string, the number of characters in the current string to search, and the type of search to use for the specified string.
+        /// Reports the zero-based index of the last occurrence of the specified string in the current String object. Parameters specify the starting search position in the current string, the number of characters in the current string to search, and the type of search to use for the specified string.
         /// </summary>
-        /// <returns>The zero-based index position of <paramref name="value"/> from the start of the current instance if that string is found, or -1 if it is not. If value is <see cref="string.Empty"/>, the return <paramref name="value"/> is <paramref name="startIndex"/>.</returns>
+        /// <returns>The zero-based index position of <paramref name="value"/> from the end of the current instance if that string is found, or -1 if it is not. If value is <see cref="string.Empty"/>, the return <paramref name="value"/> is <paramref name="startIndex"/>.</returns>
         public static int GetLastIndexOfStringWithStringComparison(string str, string value, int startIndex, int count)
         {
             // TODO #3-12. Implement the method using String.LastIndexOf instance method. Analyze the unit tests, and use the correct StringComparison enumeration value.
